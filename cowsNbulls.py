@@ -1,15 +1,11 @@
 ## AIM --> Create a cows'n'bulls game ##
 
 # TODO:
-# DONE! 1. Make a random 4-digit number generator.
-# DONE! 2. Ask player for a guess of the number.
-# 3. For correct guess of a digit -- give him a cow.
-# 4. For correct guess of a digit, but in a wrong position -- bull.
-# 5. When player guessed the full number correctly -- end the game.
 # 6. Count player's moves and print them at the end.
 
 from random import randint
 
+moves = 0
 
 def gsplit( word ):
     lst = []
@@ -38,6 +34,8 @@ while True:
 
     if guess == num:
         break
+
+    moves += 1
 
     print(f'Your cows: {cows}; Your bulls: {bulls}')
 
