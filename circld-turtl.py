@@ -3,6 +3,7 @@
 ### TODO:
 ## 1. The only one left is to leave previously colored circles visible
 
+from os import system   # Used only for clearing the command line/terminnal !
 from random import randint, choice
 import turtle as t
 
@@ -12,6 +13,7 @@ while True:
     mode = input('In which mode to run?\n' + '  1. Increasing circles (Beta)\n' + '  2. Decreasing circles\n' + 'Type the number of the mode to run: ')
     if mode == '1' or mode == '2':
         break
+    system('cls|clear')   # Doing a cmdline clear, depending on the system ('cls' - Win, 'clear' - others)
     print('You need to type the number of the mode you wish to run!')
 
 ## Asking for amount of circles (pt. 1)
