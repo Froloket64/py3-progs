@@ -9,11 +9,11 @@
  ▄████▀       ▀█████▀     ▄████▀     ███    █▀     ▀██████▀   ▀█   █▀  
 ```
 
-All programs here are licensed under `YAUFLicense`.
+All programs here are distributed under `YAUFL`.
 
 
-YAUFL
------
+What is YAUFL?
+--------------
 
-***Y***et **A**nother **U**ltra **F**ree **L**icense. Yes, I'm very creative.
-**Anyone** can borrow the files and use/modify them for _their needs_.
+**Y**et **A**nother **U**ltra **F**ree **L**icense. Yes, I'm very creative.
+**Anyone** is free to borrow the files and use/modify them for _their needs_.
