@@ -1,4 +1,4 @@
-## AIM --> Gen rand arr which is also an acronym
+###  Generate a random array which should be a palindrome  ###
 
 from random import choice
 
