@@ -1,5 +1,7 @@
-## AIM --> Count even nums
+###  Count even numbers from the array  ###
 
+
+## Need it (?) for turning a str into a list
 def listify(word):
     out = []
     temp = ''

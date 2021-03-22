@@ -1,13 +1,9 @@
-###  AIM --> Generate random square equations ###
-
-
-## TODO:
-## All done, I suppose. ::CONGRATS!!::
+### Generates random square equations ###
 
 
 from random import randint, randrange
-from math import sqrt # Gonna be needed for square root
-from os import system # Gonna be needed for terminal 'clear'ing
+from math import sqrt  # Gonna be needed for taking square roots
+from os import system  # Gonna be needed for terminal 'clear'ing
 
 
 # Enabling Debug
