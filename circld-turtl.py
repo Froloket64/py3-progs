@@ -1,7 +1,5 @@
 ## Fill a shape (circle) with a random color
 
-### TODO:
-## 1. The only one left is to leave previously colored circles visible
 
 from os import system   # Used only for clearing the command line/terminnal !
 from random import randint, choice
@@ -62,9 +60,9 @@ for i in range(steps):
 
     ## In-/Decreasing radius with each iteration (just for fun..?)
     if mode == '1':
-        rad += 5
+        rad += ( rad + (steps / 2) ) / steps
     if mode == '2':
-         rad -= 5
+        rad -= ( rad + (steps / 2) ) / steps
 
 
 ## Just to not terminate the window automatically
