@@ -36,6 +36,9 @@ running = True
 while running:
     ## Adding the background
     screen.fill(bg)
+    ## Set window title
+    pygame.display.set_caption('Lul kek')
+
     pygame.display.update()
 
     for event in pygame.event.get():
@@ -58,9 +61,6 @@ while running:
             elif event.key == K_DOWN:
                 speed[1] += 2
 
-
-        ## Set window title
-        pygame.display.set_caption('Lul kek')
 
         ## The Ball
         rect = rect.move(speed)
