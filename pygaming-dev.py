@@ -1,3 +1,5 @@
+###  THIS IS ONLY MY EXPERIMENTS!  UNDER CONSTRUCTION!  ###
+
 import pygame
 from pygame.locals import *
 
@@ -14,16 +16,18 @@ bg = (70, 70, 70) # Gray
 
 color = None
 
-## Keybinds mb ?..
+## Keybinds mb ?..   [not yet]
 # kb = {}
 
 
-## Drawing a ball!!
+### Drawing a ball!!
+
+## Creating our -ball- object (ball image in "img" dir)
 ball = pygame.image.load('img/ball.gif')
-rect_size = (640, 320)
-# width, height = rext_size
+## Setting a -speed- var for moving our objects (rect)
 speed = [0, 0]
 
+## Creating the -ball-'s container (neccessary in Pygame)
 rect = ball.get_rect()
 
 
@@ -39,7 +43,7 @@ while running:
         print(event)
 
         ## Keybinds
-        if event.type == KEYDOWN:    ## Would be pygame.KEYDOWN if pygame.locals wasn't imported
+        if event.type == KEYDOWN:    ## Would be -pygame.KEYDOWN- if -pygame.locals- wasn't imported
             if event.key == K_d:
                 ## Asking for a color (just pick one)
                 color = ( int(input('Red: ')), int(input('Green: ')), int(input('Blue: ')) )
@@ -70,8 +74,9 @@ while running:
         if color != None:
             screen.fill(color)
 
+        ## Updating the screen (displaying the changes)
         pygame.display.update()
 
-        ## End game if smth...
+        ## End game if the close button (of the window) is pressed
         if event.type == pygame.QUIT:
             running = False
