@@ -1,0 +1,34 @@
+#+title: TODOs for my py3-progs repo
+
+* TODO Build executables for
+** TODO Linux:
+- [ ] cowsNbulls.py
+- [ ] crypt.py
+- [ ] event-num-count.py
+- [ ] math_divis-checker.py
+- [ ] math_problem-gen.py
+- [ ] sqr-x.py
+
+** TODO Windows (mb?):
+- [ ] cowsNbulls.py
+- [ ] crypt.py
+- [ ] event-num-count.py
+- [ ] math_divis-checker.py
+- [ ] math_problem-gen.py
+- [ ] sqr-x.py
+
+* TODO Add [[file:README.md][README]] entries for
+- [ ] circld-turtl.py
+- [ ] cowsNbulls.py
+- [ ] crypt.py
+- [ ] event-num-count.py
+- [ ] math_divis-checker.py
+- [ ] math_problem-gen.py
+- [ ] plus-minus-arr.py
+- [ ] pos-num-check.py
+- [ ] pygaming-dev.py
+- [ ] rand-palind.py
+- [ ] sqr-x.py
+
+
+Whooh, hope I'll manage to do these someday...
