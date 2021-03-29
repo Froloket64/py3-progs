@@ -1,4 +1,8 @@
-#+title: TODOs for my py3-progs repo
+#+title: TODOs for my  py3-progs  repo
+
+* TODO Make
+- [ ] a Brand New encryption algorithm (now, when I learned about modular arithmetics)
+
 
 * TODO Build executables for
 ** TODO Linux:
@@ -31,4 +35,4 @@
 - [ ] sqr-x.py
 
 
-Whooh, hope I'll manage to do these someday...
+Whooh! Hope I'll manage to do these someday...
