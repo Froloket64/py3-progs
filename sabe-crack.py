@@ -1,6 +1,5 @@
-###   This is the SAbEncryption cracker, made to show the weakness of the SAbE (well, hm, honestly, just for fun)   ###
+###   This is the SAbEncryption cracker, made to show the weakness of the SAbE (why? well, just for fun)   ###
 
-## Plan:
 ## General principles:
 ## - Make math operation, with each guess of the key
 ## Output format:
