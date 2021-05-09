@@ -1,8 +1,5 @@
 ##  Create a Cows'n'Bulls game  ###
 
-# TODO:
-# 6. Count player's moves and print them at the end.
-# 7. Comment the stuff better.
 
 from random import randint
 
